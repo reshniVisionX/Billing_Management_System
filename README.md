@@ -1,6 +1,7 @@
 #Output of the website
 
-![Alt Text]("C:\Users\sivat\OneDrive\Pictures\Screenshots\Screenshot 2024-03-25 213619.png")
+![Screenshot 2024-03-25 213619](https://github.com/reshniVisionX/Billing_Management_System/assets/138602610/7345bf4d-3744-4375-b234-c48de9dcaa33)
+
 
 # Getting Started with Create React App
 
