@@ -1,4 +1,4 @@
-#Output of the website
+# Output of the website
 
 ![Screenshot 2024-03-25 213619](https://github.com/reshniVisionX/Billing_Management_System/assets/138602610/7345bf4d-3744-4375-b234-c48de9dcaa33)
 
