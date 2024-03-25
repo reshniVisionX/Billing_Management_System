@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
+import { useState } from 'react';
 import './App.css';
+import Products from './components/add_products';
+import Bill from './components/generate_bill';
 
 function App() {
+  const [product,setProduct] = useState([]);
+  const [clearSignal, setClearSignal] = useState(false)
+
+   function handleClearBill(){
+     setClearSignal(!clearSignal);
+   }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className='title1'>Canteen Billing Management System</h1>
+      <Products productData={product} setProductData={setProduct} clear={handleClearBill}/>
+      <br></br>
+      <Bill productData={product} clear={clearSignal}/>
     </div>
   );
 }

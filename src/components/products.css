@@ -1,0 +1,66 @@
+
+.title1{
+    color: rgb(63, 3, 76);
+    text-shadow: 2px 2px 4px #df97ed;
+}
+.title{
+    color: rgb(108, 5, 126);
+   
+}
+.btn-clk-add{
+  width:200px;
+  height:30px;
+  color: aliceblue;
+  background-color: rgba(231, 143, 255, 0.763);
+  box-shadow: 2px 5px 4px 2px gray;
+  border: 3px solid white;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+ margin-right: 10px;
+}
+.btn-clk-clear{
+    width:200px;
+    height:30px;
+    color: aliceblue;
+    background-color: rgba(241, 127, 163, 0.763);
+    box-shadow: 2px 5px 4px 2px gray;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .btn-clk-gen{
+    width:200px;
+    height:30px;
+    color: aliceblue;
+    background-color: rgba(127, 241, 159, 0.763);
+    box-shadow: 2px 5px 4px 2px gray;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .fieldset-custom {
+    width: 300px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 4px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .label-quantity {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 7px;
+  }
+  .input-quantity {
+    height:30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 15%;
+    margin-right: 20px;
+  }
+  
