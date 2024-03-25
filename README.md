@@ -1,3 +1,7 @@
+#Output of the website
+
+![Alt Text]("C:\Users\sivat\OneDrive\Pictures\Screenshots\Screenshot 2024-03-25 213619.png")
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
